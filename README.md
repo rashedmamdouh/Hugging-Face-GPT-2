@@ -43,4 +43,4 @@ Your results should be available within Colab, and it is recommended to run a se
   - Report the output of the code prompts provided at the end of the notebook.
 
 ## Conclusion
-This README provides a structured overview of the Code Generation project. It outlines the objectives, requirements, and expectations for running experiments and reporting results. By following these guidelines, you can effectively explore code generation using HuggingFace and gain valuable insights into NLP-based code generation techniques. Good luck with your project!
+This README provides a structured overview of the Code Generation project. It outlines the objectives, requirements, and expectations for running experiments and reporting results. By following these guidelines, you can effectively explore code generation using HuggingFace and gain valuable insights into NLP-based code generation techniques.
