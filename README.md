@@ -1,10 +1,10 @@
-# 🤖 GPT-2 Code Generation using Hugging Face Transformers
+#  GPT-2 Code Generation using Hugging Face Transformers
 
 This project demonstrates how to fine-tune a GPT-2 model for code generation using Hugging Face Transformers. The model is trained on a dataset of Python code snippets to complete code prompts effectively.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 - **Dataset**: [`codeparrot-ds-train`](https://huggingface.co/datasets/huggingface-course/codeparrot-ds-train)
 - **Model**: GPT-2 initialized from `AutoConfig` with custom vocabulary size
@@ -13,7 +13,7 @@ This project demonstrates how to fine-tune a GPT-2 model for code generation usi
 
 ---
 
-## 🛠️ Features
+##  Features
 
 - Loads and samples 50k training and 500 validation examples
 - Tokenizes Python code using `code-search-net-tokenizer`
@@ -25,7 +25,7 @@ This project demonstrates how to fine-tune a GPT-2 model for code generation usi
 
 ---
 
-## 🧪 Results
+##  Results
 
 - Achieved low perplexity on evaluation set (~best metric to track quality)
 - Generates complete Python code snippets from partial inputs
@@ -33,7 +33,7 @@ This project demonstrates how to fine-tune a GPT-2 model for code generation usi
 
 ---
 
-## 💡 Example Prompts
+##  Example Prompts
 
 - Creating a scatter plot using NumPy
 - Building a DataFrame and calculating mean per group
@@ -41,14 +41,14 @@ This project demonstrates how to fine-tune a GPT-2 model for code generation usi
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 - `gpt2_code_generation.ipynb` — Main notebook with preprocessing, training, and inference
 - `README.md` — Documentation
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install datasets evaluate transformers[sentencepiece]
